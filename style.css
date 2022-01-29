@@ -1,0 +1,89 @@
+:root {
+    --main-bg-color: #1a1a1c;
+    --main-text-color: #fff;
+    --secondary-text-color: #ccc;
+    --main-element-bg-color: #151515;
+    --secondary-element-bg-color: #222;
+    --mopaiv-blue: #007bff;
+}
+
+body, html {
+    background-color: var(--main-bg-color);
+}
+
+.navbar {
+    background-color: var(--main-element-bg-color);
+}
+
+.card {
+    background-color: var(--main-element-bg-color);
+}
+
+.card * {
+    color: var(--main-text-color);
+}
+
+.text-muted, .text-truncate {
+    color: var(--secondary-text-color);
+}
+
+#tabName, h1, h2, h3, h4, h5, h6 {
+    color: var(--main-text-color);
+}
+
+.nav-pills .nav-link, .nav-pills .nav-link:hover, .nav-pills .nav-link:focus {
+    background-color: var(--main-element-bg-color);
+    color: var(--main-text-color);
+}
+
+.card .nav-pills .nav-link:hover {
+    background-color: var(--secondary-element-bg-color);
+    color: var(--main-text-color);
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus {
+    background-color: var(--mopaiv-blue);
+    color: var(--main-text-color);
+}
+
+.img-holder, .card-top {
+    background-color: var(--secondary-element-bg-color) !important;
+}
+
+.form-control {
+    background-color: var(--main-element-bg-color);
+    border-color: #000;
+}
+
+.card .form-control {
+    background-color: var(--secondary-element-bg-color);
+    border-color: #000;
+}
+
+.form-control, .form-control:focus {
+    color: var(--main-text-color);
+}
+
+.form-control::placeholder {
+    color: var(--secondary-text-color);
+}
+
+a {
+    color: var(--secondary-text-color) !important;
+}
+
+a:hover, a:focus {
+    color: var(--main-text-color);
+}
+
+.col-md.text-center-sm.align-self-center.hide-sm span {
+    color: var(--secondary-text-color);
+}
+
+.nav-item a:hover {
+    background-color: var(--main-bg-color) !important;
+}
+
+.border-right, .border-left {
+    border-color: #000;
+}
