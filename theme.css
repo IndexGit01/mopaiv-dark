@@ -7,6 +7,7 @@
     --secondary2-element-bg-color: #0f0f0f;
     --third-element-bg-color: #222;
     --mopaiv-blue: #007bff;
+    --mopaiv-blue-darker: #0057b5;
 }
 
 body, html {
@@ -63,12 +64,16 @@ p.text-center {
 
 .form-control, .form-control:hover, .form-control:focus {
     background-color: var(--main-element-bg-color);
-    border-color: #000;
+    border: 1px solid rgba(0, 0, 0, .25);
+}
+
+.form-control:focus, .card .form-control:focus {
+    border: 1px solid var(--mopaiv-blue) !important;
 }
 
 .card .form-control, .card .form-control:hover, .card .form-control:focus {
     background-color: var(--secondary-element-bg-color);
-    border-color: #000;
+    border: 1px solid rgba(0, 0, 0, .25);
 }
 
 .form-control, .form-control:focus {
